@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,400&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.program-view-banner {
+  width: 1144px;
+  height: 642px;
+  left: 151px;
+  top: 176px;
+}
+
+.block-title {
+
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 32px !important;
+  line-height: 38px;
+  opacity: 0.6;
+  padding: 100px 0px;
+}
+
+.block-faq {
+  font-size: 40px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding-bottom: 24px;
+
+}
+
+.view-content {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  justify-content: space-around;
+}
+
+.program-view-mentor-profile {
+  border-radius: 6px;
+  max-width: 300px;
+  width: 250px;
+  margin: 12px;
+}
+
+.btn {
+  padding: 12px 140px;
+  margin-top: 40px;
+}
+
+.cal-paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+}
+
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+  height: 20%;
+  overflow: hidden;
+  align-items: center;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.border {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 20%;
+  background: grey;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%);
+}
+
+.coindcx-logo {
+  width: 287px;
+  margin-left: 120px;
+}
+
+.grid-item-value {
+  font-weight: 500;
+  font-size: 132px;
+  text-align: center;
+  line-height: 160px;
+}
+
+.grid-item-paragraph {
+  opacity: 0.4;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.btn-down {
+  margin-top: 15rem;
+}
+
+@media screen and (max-width: 720px) {
+  .program-view-banner {
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 80vh;
+  }
+
+  #grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10rem;
+
+  }
+
+  .border {
+    visibility: hidden;
+  }
+
+  .view-content {
+    width: 100vh;
+  }
+
+  .coindcx-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .view-content {}
+}
